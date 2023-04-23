@@ -2,11 +2,81 @@
 <html>
 <head>
     <meta charset='utf-8'/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pinke Open Source : The pinke github homepage."/>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-size: 0.95rem;
+            vertical-align: top;
+        }
+
+        .page {
+            padding: 1rem;
+            vertical-align: top;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+            background-color: #fff;
+            padding-bottom:0.2rem;
+        }
+        a:link,a:visited{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .more-tools {
+           font-size:0.8rem;
+        }
+        .column {
+            width: calc(50% - 0.5rem);
+            display: inline-block;
+            vertical-align: top;
+            white-space: normal;
+            word-spacing: normal;
+        }
+
+    </style>
 </head>
 <body>
-<h1>Welcome to pinke's workspace!</h1>
+<div class="page">
+    <h1>享我所想、乐你所乐</h1>
+    <div class="more-tools">一些个人爱好,丢了很多,想到了就整理起来，有用的拿走不谢。</div>
+    <div class="column">
+        <h2 id="tools">平康工具</h2>
+        <div class="more-tools">自己开发的一些小工具，好用的点个赞，还有一些东西，还没有整理等整理好了来加上 !</div>
+        <ol>
+            <li>ProxyMapping: 一个端口转发工具，支持UDP、TCP、黑名单</li>
+            <li>HttpServer: 一个web网络服务器，支持http、https、wss、ws反向代理，支持动态端口。</li>
+            <li>SmsSenderApi App (Android) 一个短信发送接品服务器，支持打电话、发短信。通过远程http服务调用。</li>
+            <li>Pdf2Image： PDF文件拆分成，把PDF拆分多张图片。</li>
+            <li>邮件批量发送小工具： 支持内容模板，以及批量附件发送。</li>
+            <li>Com口短信发送程序： AT指令发送。</li>
+            <li><a target="_blank" href="https://github.com/pinke/trydone">JForum.T： 一个java高效开源论坛模板。</a></li>
+            <li><a target="_blank" href="https://github.com/pinke/cef2go-mod">cef2go: 用GO+HTML做客户端框架，修改版，支持windows xp。</a></li>
+            <li><a target="_blank" href="https://github.com/pinke/ctp-se-test">CTP-SE-TEST: C++ 版本关于上期的接口测试，可以用于申请CTP通道测试。</a></li>
+        </ol>
+    </div>
+    <div class="column">
+        <h2 id="">平康知道</h2>
+        <div class="more-tools">这里摘抄了一些内容，一般是工作上的或是有意义的事情 !</div>
+        <ol>
+            <li><a target="_blank"  href="https://gitee.com/pinke/tech/blob/master/salt.php">登录密码安全方案 ，防止传输过程密码被解密.(PHP实现)</a></li>
+            <li><a target="_blank"  href="https://wordpress.org/">推荐使用wordpress做企业/个人的动态介绍性网站，模板太多了。</a></li>
+        </ol>
+    </div>
+    <div>&#160;</div>
+    <div class="footer-copyright"> &copy;TryDone.com 2005~2023
+        <span>有开发需求、技术沟通的朋友可联系，微信： xpinke，QQ： 44020567 </span>
+    </div>
+</div>
 </body>
 </html>
